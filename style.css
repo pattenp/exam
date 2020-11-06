@@ -16,7 +16,11 @@ body {
 /* Common */
 p,
 h1,
-.nav-item {
+h2,
+h3,
+h4,
+h5,
+h6 .nav-item {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,12 +54,55 @@ button {
   list-style-type: upper-roman;
 }
 
+/* Graphic */
+@keyframes kf-size-bcg {
+  from {
+    background-color: lightskyblue;
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+  }
+}
+.anim-size-bcg {
+  height: 300px;
+  width: 300px;
+  animation-name: kf-size-bcg;
+  animation-duration: 4s;
+  background-color: yellow;
+}
+.expandable-list-item {
+}
+.expandable-list-item:hover .expandable-list-item-child {
+  display: block;
+}
+.expandable-list-item-child {
+  display: none;
+}
+.hoverable {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: height 3s, width 1.5s, background-color 2s;
+}
+.hoverable:hover {
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+}
+
 /* Utils */
 .mtb-30px {
   margin: 30px 0;
 }
 .p-10px {
   padding: 10px;
+}
+.w-100 {
+  width: 100%;
 }
 .border-around {
   border: 2px black solid;
