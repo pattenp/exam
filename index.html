@@ -1,0 +1,42 @@
+<!-- 1. Startsidan ska:
+- Innehålla en div som är högst 400px bred och som är centrerad på startsidan.
+  Diven ska också innehålla en välkomsttext om minst tre meningar.
+- Innehålla en div som är lika bred som ovanstående och som också ska vara centrerad.
+  I denna div ska det ligga ett inputelement och en submit knapp (ingen CSS krävs
+  for dessa element). Den ska ha minst 30 pixlars avstånd (margin) uppåt och 
+  nedåt och minst 2 pixlars kant runt hela diven i valfri färg.
+  Den ska också ha en padding på minst 10 pixlar åt alla håll. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Startsida</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container flex flex-column flex-align-center">
+        <h1 id="need-to-have-selector">Startsida</h1>
+        <div class="mw-400">
+          <p>
+            Hej och välkommen till min sida i examen för HTML och CSS3 på
+            EC-utbildining. Mitt namn är Patrik och jag tycker webutveckling är
+            roligt. Ännu en väldigt fin mening.
+          </p>
+        </div>
+        <div class="mw-400 mtb-30px p-10px border-around">
+          <form>
+            <div class="flex flex-column flex-align-center">
+              <label for="input-text">Text: </label>
+              <input type="text" name="input-text" id="input-text" />
+              <button type="submit">Sänd</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

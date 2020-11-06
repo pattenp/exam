@@ -1,0 +1,67 @@
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+/* Index.html */
+.container {
+  padding: 0 2rem;
+  width: 100%;
+}
+
+p,
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 100%;
+  margin: 0.25rem 0.5rem;
+}
+.mw-400 {
+  max-width: 400px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.container p {
+  line-height: 1.6;
+}
+
+/* Utils */
+.mtb-30px {
+  margin: 30px 0;
+}
+.p-10px {
+  padding: 10px;
+}
+.border-around {
+  border: 2px black solid;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-align-center {
+  align-items: center;
+}
+
+/* Media Queries */
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
