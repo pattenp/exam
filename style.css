@@ -60,6 +60,9 @@ button {
 .flex-align-center {
   align-items: center;
 }
+.flex-gap2px {
+  gap: 2px;
+}
 
 /* Media Queries */
 @media (min-width: 576px) {
