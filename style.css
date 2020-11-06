@@ -9,15 +9,24 @@ body {
   background-color: red;
 }
 
+/* Common */
+p,
+h1,
+.nav-item {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item {
+  text-decoration: none;
+  border-bottom: 2px black transparent;
+}
+.nav-item:hover {
+  border-bottom: 2px black solid;
+}
 /* Index.html */
 .container {
   padding: 0 2rem;
   width: 100%;
-}
-
-p,
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
@@ -26,10 +35,6 @@ button {
 }
 .mw-400 {
   max-width: 400px;
-}
-
-.form-control {
-  width: 100%;
 }
 
 .container p {
