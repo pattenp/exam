@@ -74,8 +74,6 @@ button {
   animation-duration: 4s;
   background-color: yellow;
 }
-.expandable-list-item {
-}
 .expandable-list-item:hover .expandable-list-item-child {
   display: block;
 }
@@ -134,14 +132,4 @@ button {
 }
 .text-green {
   color: green;
-}
-
-/* Media Queries */
-@media (min-width: 576px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
 }
