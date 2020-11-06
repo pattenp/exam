@@ -1,0 +1,88 @@
+<!-- 
+2. Listsidan ska:
+    - Ha en ordnad lista om fem element, innehållande tex dina fem favoritfilmer. 
+      Varje element ska ha olika textfärg.
+    - Ha en ej ordnad lista med fem element + en inre ordnad lista med tre element
+      med medlemmar. (se förklarande
+      bild*)
+    - Använd romerska siffror på den inre ordnade listan istället for vanliga 
+      siffror 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="flex flex-column flex-align-center">
+          <a href="index.html" class="nav-item">Startsida</a>
+          <a href="list.html" class="nav-item">List-sida</a>
+          <a href="graphic.html" class="nav-item">Grafik-sida</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container flex flex-column flex-align-center">
+      <h1>Listor är kul</h1>
+      <section>
+        <h4>Senaste filmer</h4>
+        <ol>
+          <li class="text-black">Borat 2</li>
+          <li class="text-blue">Rogue one</li>
+          <li class="text-purple">Lord of the rings</li>
+          <li class="text-yellow">Wanted</li>
+          <li class="text-green">Office Space</li>
+        </ol>
+      </section>
+      <section>
+        <h4>Oboy nästlade listor</h4>
+        <ul>
+          <li>
+            <h6>Familj</h6>
+            <ol class="upper-roman">
+              <li>Mamma</li>
+              <li>Pappa</li>
+              <li>Valfritt antal barn</li>
+            </ol>
+          </li>
+          <li>
+            <h6>Fotboll Klubbar</h6>
+            <ol class="upper-roman">
+              <li>Malmö FF</li>
+              <li>Liverpool FC</li>
+              <li>AS Roma</li>
+            </ol>
+          </li>
+          <li>
+            <h6>Spel</h6>
+            <ol class="upper-roman">
+              <li>Apex Legends</li>
+              <li>Valorant</li>
+              <li>Warzone</li>
+            </ol>
+          </li>
+          <li>
+            <h6>Tv-Serier</h6>
+            <ol class="upper-roman">
+              <li>Silicon Valley</li>
+              <li>Warrior</li>
+              <li>Banshee</li>
+            </ol>
+          </li>
+          <li>
+            <h6>Frukost</h6>
+            <ol class="upper-roman">
+              <li>Brittisk</li>
+              <li>Mussli</li>
+              <li>En Billis funkar när man vaknar sent</li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
